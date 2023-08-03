@@ -1,7 +1,5 @@
 ### React Vite Microfrontend Monorepo Proof of Concept
 
-PoC based on using PNPM + Vite + Vite Plugin Federation + React + Typescript
-
 #### How to start:
 
 Install [pnpm](https://pnpm.io/installation). Easiest way:
