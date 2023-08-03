@@ -1,0 +1,21 @@
+{
+  "name": "vocalclub-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --parallel --filter \"./**\" build",
+    "build:dev": "pnpm --parallel --silent --filter \"./**\" build-watch",
+    "dev:host": "pnpm --filter \"./host\" dev",
+    "dev:remote": "pnpm --filter \"./host\" dev",
+    "serve": "pnpm --parallel --filter \"./**\" preview",
+    "stop": "kill-port --port 4000,4001"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.2.3",
+    "kill-port": "^2.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
