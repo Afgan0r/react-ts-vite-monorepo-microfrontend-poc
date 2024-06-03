@@ -9,9 +9,7 @@ npm install -g pnpm
 
 #### How to dev:
 
-##### Both apps (live reloading)
-
-Live reloading means that you will see changes only after manual page reload
+##### Both apps
 
 Run each command in separate tabs
 ```sh
